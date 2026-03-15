@@ -1,4 +1,4 @@
-# : Compresie și Decompresie (Proiect Student) : RLE-EASY
+# : Compresie și Decompresie : RLE-EASY
 
 **Autor:** Glitter Geeks-Coderun 2025
 
