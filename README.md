@@ -46,3 +46,4 @@ RLE se bazează pe găsirea secvențelor de caractere identice și înlocuirea l
 * **Decompresie:** 
 		Se citește fiecare caracter, iar dacă el este urmat de cifre, repetă caracterul de numărul de ori specificat.
 
+Co-authored-by: abcd <patricialeonte14@gmail.com>
