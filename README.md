@@ -1,49 +1,36 @@
-# : Compresie și Decompresie : RLE-EASY
+# RLE-EASY: Data Compression Tool
 
-**Autor:** Glitter Geeks-Coderun 2025
+## 💻 Overview
+A lightweight and intuitive utility focused on **Run-Length Encoding (RLE)** data compression. This application transforms redundant character sequences into a compact format, demonstrating a practical implementation of fundamental compression algorithms. Built with a clean interface, it simplifies the interaction between complex logic and user-friendly manipulation.
 
-Acest proiect implementează algoritmul **Run-Length Encoding (RLE)**.
+---
 
+## 🤍 Tech Stack
+* **Language:** JavaScript (ES6+), HTML5, CSS3
+* **Logic:** RLE Compression & Decompression Algorithms
+* **Architecture:** Modular Frontend Scripting
 
+![JavaScript](https://img.shields.io/badge/javascript-ES6%2B-%23FF69B4.svg?style=for-the-badge&logo=javascript&logoColor=white) ![HTML5](https://img.shields.io/badge/HTML5-%23FF69B4.svg?style=for-the-badge&logo=html5&logoColor=white) 
 
-## Mod de Folosire: 
+![CSS3](https://img.shields.io/badge/CSS3-%234F4F4F.svg?style=for-the-badge&logo=css3&logoColor=white) ![Algorithm](https://img.shields.io/badge/Algorithm-RLE-%23333333.svg?style=for-the-badge&logo=codeforces&logoColor=white)
 
-Această aplicație rulează direct pe laptop, foarte simplu 
+---
 
+## 🎀 Core Functionality
+* **CompressRLE:** Analyzes input strings and replaces repetitive character sequences with `[character][count]` pairs, optimizing storage efficiency.
+* **DecompressRLE:** Executes the inverse algorithm, reconstructing original data from compressed patterns.
+* **Streamlined UI:** A single-input interface designed for instant feedback and rapid data processing.
+* **Ease of Use:** Standalone web application; simply open `index.html` in any modern browser.
 
-PAS 1:  toate fișierele (`index.html`, `style.css`, `app.js`, `README.md`) trebuie să fie puse în același folder.
-PAS 2:  dublu-click pe fișierul **index.html** (astfel se va lansa aplicația)
+---
 
+## 📂 Project Structure
+The project maintains a simple, flat architecture for rapid deployment:
+* **`index.html`**: Defines the user interface and structural skeleton.
+* **`style.css`**: Manages the aesthetic layout and responsive design.
+* **`app.js`**: Houses the core logic for the RLE transformation functions.
+* **`README.md`**: Project documentation and usage guidelines.
 
-##  DESPRE Interfață 
+---
 
-Aplicația are un singur câmp de intrare/ieșir și două butoane:
-
-### 1. 𝐂𝐨𝐦𝐩𝐫𝐢𝐦𝐚
-
-* **Rolul:** Aplică algoritmul **compressRLE()** pe conținutul din câmpul de text
-    1.  Citește textul introdus ("AAACCCC")
-    2.  Rulează funcția de compresie ("A3C4")
-    3.  Afișează rezultatul codificat în același câmp de text
-
-
-### 2. 𝐃𝐞𝐜𝐨𝐦𝐩𝐫𝐢𝐦𝐚
-
-* **Rolul:** Aplică algoritmul invers, **decompressRLE()**, pe conținutul din câmpul de text
-
-    1.  Citește textul **codificat** ("A3C4")
-    2.  Rulează funcția de decompresie
-    3.  Afișează textul original, complet în același câmp de text. ("AAACCCC")
-
-
-## Principiul de Lucru (RLE)
-
-RLE se bazează pe găsirea secvențelor de caractere identice și înlocuirea lor cu o pereche **[caracter][numarul de repetari]**
-
-* **Compresie:** Dacă un caracter apare de n ori consecutiv, el este înlocuit cu [caracter][n]
-		 Dacă n este 1, numărul este omis
-    * *Exemplu:* **"AAAAA"** devine **"A5"**.
-* **Decompresie:** 
-		Se citește fiecare caracter, iar dacă el este urmat de cifre, repetă caracterul de numărul de ori specificat.
-
-
+© 2025 Glitter Geeks CodeRun 2025 | Developed by [**𝐋𝐞𝐨𝐧𝐭𝐞 𝐏𝐚𝐭𝐫𝐢𝐜𝐢𝐚-𝐌𝐢𝐫𝐚𝐛𝐞𝐥𝐚**](https://patrrrrrrricia.github.io/glowing-button/)
